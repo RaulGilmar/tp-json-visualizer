@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty API Explorer</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <img src="assets/rick-and-morty.png" alt="Logo" class="logo">
+    <h1>Universo de Rick and Morty</h1>
+    <nav>
+      <a href="index.html">Principal</a>
+      <a href="#" id="aboutUs">Sobre nosotros</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Realizá tu consulta</h2>
+    <form id="apiForm">
+      <label for="endpoint">Ingrese un endpoint (location, episode, character):</label>
+      <input type="text" id="endpoint" placeholder="Ejemplo: location" required>
+      <button type="submit">Consultar</button>
+    </form>
+
+    <button id="fetchBase">Ver rutas disponibles</button>
+    <div id="result"></div>
+
+    <!-- Botones para imprimir y descargar, inicialmente ocultos -->
+    <div id="actionButtons" style="display: none; margin-top: 1em;">
+       <button id="printResults">Imprimir resultados</button>
+       <button id="downloadResults">Descargar resultados</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Desarrollado por Raúl Rodriguez<br>Asignatura Diseño Web</p>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
