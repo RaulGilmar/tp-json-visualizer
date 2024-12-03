@@ -26,6 +26,30 @@ npm install express cors body-parser axios
 
 Estructura del proyecto en la rama master:
 
+
+De esta forma, el bloque de texto se mostrará como "código" en la vista del archivo `README.md`, manteniendo la estructura en formato visual correcto. **Recuerda siempre usar tres acentos graves antes y después del bloque que quieras destacar.**
+
+### Resultado en GitHub:
+Se verá como un bloque preformateado, manteniendo las líneas y la estructura del proyecto. Si prefieres algo más estilizado pero sin un bloque de código, también puedes usar listas con sangría manual:
+
+```markdown
+# Estructura del proyecto
+
+- **tp-json-visualizer/**
+  - **public/**
+    - **css/**
+      - `styles.css`: Hoja de estilos
+    - **js/**
+      - `main.js`: Lógica frontend
+    - **assets/**
+      - `rick-and-morty.png`: Logo
+    - `index.html`: Página principal
+  - **server/**
+    - `app.js`: Servidor backend configurado con Node.js
+  - `package.json`: Configuración del proyecto Node.js
+  - `package-lock.json`: Versiones bloqueadas de las dependencias
+
+
 tp-json-visualizer/
 │
 ├── public/
