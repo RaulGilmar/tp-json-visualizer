@@ -19,9 +19,13 @@ Esto generará un archivo package.json con la configuración básica del proyect
 Instalar dependencias necesarias
 Ejecuta el siguiente comando para instalar los módulos requeridos:
 npm install express cors body-parser axios
+
  ◉ express: Framework para configurar el servidor.
+
  ◉ cors: Middleware para permitir solicitudes desde dominios cruzados.
+
  ◉ body-parser: Middleware para analizar datos JSON enviados desde el cliente.
+
  ◉ axios: Cliente HTTP para consumir la API externa.
 
 Estructura del proyecto en la rama master:
