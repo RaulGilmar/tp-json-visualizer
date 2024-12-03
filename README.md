@@ -45,10 +45,14 @@ Estructura del proyecto en la rama master:
   - `package-lock.json`: Versiones bloqueadas de las dependencias
 
 Iniciar el Proyecto:
+
   ◉ Iniciar el servidor
+
 Ejecuta el siguiente comando en la terminal para iniciar el servidor:
 node server/app.js
 Esto iniciará el servidor en http://localhost:3000.
+
   ◉Probar el proyecto
+
 Abre un navegador web y ve a http://localhost:3000.
 Prueba las funciones del formulario y verifica que se consuma la API correctamente.
