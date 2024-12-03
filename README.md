@@ -40,24 +40,6 @@ Estructura del proyecto en la rama master:
   - `package.json`: Configuración del proyecto Node.js
   - `package-lock.json`: Versiones bloqueadas de las dependencias
 
-
-tp-json-visualizer/
-│
-├── public/
-│   ├── css/
-│   │   └── styles.css       --> Hoja de estilos
-│   ├── js/
-│   │   └── main.js          --> Lógica frontend
-│   ├── assets/
-│   │   └── rick-and-morty.png  --> Logo 
-│   └── index.html           --> Página principal
-│
-├── server/
-│   └── app.js               --> Servidor backend configurado con Node.js
-│
-├── package.json             --> Configuración del proyecto Node.js
-├── package-lock.json        --> Versiones bloqueadas de las dependencias
-
 Iniciar el Proyecto:
   ◉ Iniciar el servidor
 Ejecuta el siguiente comando en la terminal para iniciar el servidor:
